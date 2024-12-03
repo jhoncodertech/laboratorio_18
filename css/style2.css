@@ -1,0 +1,87 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --balck: #000000;
+  --violet: #c2acf2;
+  --greend: #8fd9a1;
+  --orrange: #f2c185;
+  --coffee: #400601;
+  --pink: #f29999;
+}
+
+.menu {
+  background-color: var(--coffee);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  float: left;
+}
+
+header {
+  background-color: var(--pink);
+  color: var(--balck);
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+}
+
+section {
+  background-color: var(--greend);
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+article {
+  background-color: var(--orrange);
+  color: var(--white);
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+footer {
+  background-color: var(--violet);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: none;
+  grid-column-gap: 5px;
+}
+
+.footer__uno {
+  background-color: var(--balck);
+  grid-column: 1;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer__dos {
+  background-color: var(--balck);
+  grid-column: 2;
+  border-radius: 5px;
+  text-align: center;
+}
